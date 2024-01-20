@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'MonaSpace';
+  src: url(/Assets/Fonts/monaspace/variable/MonaspaceNeonVarVF[wght\,wdth\,slnt].ttf);
+}
 :root {
   --headline-color: #fffffe;
   --button-color: #7f5af0;
@@ -22,7 +26,7 @@ html {
 
 body {
   font-size: 16px; /* 1rem = 10px.*/
-  font-family: monospace, sans-serif;
+  font-family: 'Monaspace', sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
