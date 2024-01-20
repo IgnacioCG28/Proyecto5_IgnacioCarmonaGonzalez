@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/Styles/normalize.css">
+    <link rel="stylesheet" href="/Styles/contact.css">
+</head>
+<body>
+    
+    <nav class="nav-container">
+        <div class="nav-logo">
+            <a href="/index.html"><img src="/Assets/Img/terra-corp.svg" alt="Terra Corp Logo"></a><p>TERRA CORP</p>
+        </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="/index.html">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="/templates/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="/templates/contact.html"><li>Contact</li></a>
+          </ul>
+          <img  class="logo" src="/Assets/Img/terra-corp.svg" alt="">
+        </div>
+    <div class="main-container-form">
+        <form id="formulario" action="/templates/send.html" method="get">
+            <h2>Contacto TERRA CORP</h2>
+            <input type="text" name="nombre" id="nombre" placeholder="Name">
+            <input type="text" name="apellido" id="apellido" placeholder="Last Name">
+            <input type="email" name="correo" id="correo" placeholder="Email">
+            <input type="text" name="telefono" id="telefono" placeholder="Phone">
+  
+            <textarea class="message" name="mensaje" id="mensaje" cols="30" rows="4"
+                placeholder="Write a message."></textarea>
+            <input type="submit" name="enviar" id="enviar" value="SEND">
+            <ul  id="errores"></ul>
+        </form>
+    </div>
+        <footer>
+            <div class="footer-container">
+              <div class="footer-logo">
+                <img src="/Assets/Img/terra-corp.svg" alt="Terra Corp Logo" />
+              </div>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#">Services</a>
+                  <p>Computers</p>
+                  <p>Tech</p>
+                  <p>Vehicles</p>
+                </li>
+                <li class="footer-item">
+                  <a href="#">About</a>
+                  <p>Corp</p>
+                  <p>Divisions</p>
+                  <p>Directives</p>
+                </li>
+                <li class="footer-item">
+                  <a href="/templates/contact.html">Contact</a>
+                  <p>info@terracorp.com</p>
+                  <p>1-800-555-5555</p>
+                  <p>1234 Terra Corp Way</p>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        <script src="/Scripts/main.js"></script>
+</body>
+</html>
