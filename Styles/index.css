@@ -423,7 +423,7 @@ footer {
   }
 
   .hero-container {
-    width: 70rem;
+    width: 80rem;
     clip-path: none;
   }
 
@@ -472,6 +472,10 @@ footer {
     height: 6rem;
     margin-left: 0;
   }
+
+  .footer-container{
+    height: auto;
+  }
 }
 
 @media (max-width: 425px) {
@@ -486,5 +490,6 @@ footer {
 
   footer {
     width: 50rem;
+    height: auto;
   }
 }

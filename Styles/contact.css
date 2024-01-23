@@ -420,6 +420,9 @@ footer {
             height: 6rem;
             margin-left: 0;
           }
+
+          .footer-container{
+            height: auto;}
     }
 
     @media screen and (max-width: 480px) {
@@ -446,4 +449,8 @@ footer {
         form p {
             font-size: 1rem;
         }
+
+        .footer-container{
+          height: auto;
+      }
     }
